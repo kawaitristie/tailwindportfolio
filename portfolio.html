@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com">
+    function toggleMenu() {
+				document.getElementById("navbar").classList.toggle("hidden");
+			}
+			function toggleDropdown() {
+				document.getElementById("dropdownMenu").classList.toggle("hidden");
+			}
+  </script>
+</head>
+<body class="font-sans">
+<!-- Menubar -->
+<nav style="background-color: #6F90AF;" class="text-white p-4">
+<div class="container mx-auto flex justify-between items-center">
+	<span class="font-semibold text-xl">Kawai Tristie Gumilang</span>
+	<button onclick="toggleMenu()" class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300 md:hidden"></button>
+	<div class="hidden md:flex">
+		<a href="portfolio.html#home" class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300">Home</a>
+		<a href="portfolio.html#about" class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300">About</a>
+		<a href="portfolio.html#certificate" class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300">Certificates</a>
+		<a href="portfolio.html#portfolio" class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300">Portfolio</a>
+		<a href="portfolio.html#suggest" class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300">Suggest</a>
+		<a href="contact.html" class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300">Contact</a>
+	</div>
+</div>
+</nav>
+<!-- Introduction -->
+<section id="introduction" class="py-12 px-4">
+<div class="max-w-4xl mx-auto">
+	<img src="img/profile.png" class="mx-auto" style="width: 50%;">
+	<h2 class="text-3xl font-bold mb-4 text-center">Kawai Tristie Gumilang</h2>
+	<p class="text-lg">
+		 Currently enrolled at Universitas Pelita Harapan, where I am pursuing a degree in Information Systems.
+	</p>
+	<div class="flex items-center justify-center">
+		<button type="button" class="btn btn-light">
+		<br>
+		<a href="img/CV Kawai Tristie Gumilang.png" style="color: #303655; text-decoration: none;">Download CV</a>
+		</button>
+	</div>
+</div>
+</section>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320"><path fill="#84A7BA" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,106.7C384,128,480,192,576,202.7C672,213,768,171,864,133.3C960,96,1056,64,1152,74.7C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<!-- About Me -->
+<section id="aboutme" class="py-12 px-4" style="background-color: #84A7BA;">
+<div class="max-w-4xl mx-auto text-white">
+	<h2 class="text-3xl font-bold mb-4 text-center">About</h2>
+	<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+		<div>
+			<h5>Education</h5>
+			<ul>
+				&nbsp;&nbsp;&nbsp;Information Systems 2022<br>&nbsp;&nbsp;&nbsp;Universitas Pelita Harapan</ul>
+			<ul>
+				&nbsp;&nbsp;&nbsp;Budi Mulia Senior High School<br>&nbsp;&nbsp;&nbsp;Science Major</ul>
+		</div>
+		<div>
+			<h5>Working Experience</h5>
+			<ul>
+				&nbsp;&nbsp;&nbsp;Talent of Rex Regum Qeon <br>&nbsp;&nbsp;&nbsp;April 2023 - Present</ul>
+			<ul>
+				&nbsp;&nbsp;&nbsp;Freelance Model <br>&nbsp;&nbsp;&nbsp;2019 - Present</ul>
+			<ul>
+                &nbsp;&nbsp;&nbsp;Content Creator Instagram & Tiktok <br>&nbsp;&nbsp;&nbsp;2019 - Present</ul>
+		</div>
+		<div>
+			<h5>Competition</h5>
+			<ul>
+				&nbsp;&nbsp;&nbsp;Digital Marketing Competition <br>&nbsp;&nbsp;&nbsp;FEB Universitas Indonesia</ul>
+		</div>
+	</div>
+</div>
+</section>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
+<path fill="#84A7BA" fill-opacity="1" d="M0,256L48,250.7C96,245,192,235,288,197.3C384,160,480,96,576,80C672,64,768,96,864,112C960,128,1056,128,1152,112C1248,96,1344,64,1392,48L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+</svg>
+<!-- Certificate -->
+<section id="certificate" class="py-12 px-4">
+<div class="max-w-4xl mx-auto">
+	<h2 class="text-3xl font-bold mb-4">Certificate</h2>
+	<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+		<div class="shadow-lg p-4 bg-white">
+			<img src="img/certificate1.png" class="mb-3"/>
+		</div>
+		<div class="shadow-lg p-4 bg-white">
+			<img src="img/certificate2.png" class="mb-3"/>
+		</div>
+		<div class="shadow-lg p-4 bg-white">
+			<img src="img/certificate3.png" class="mb-3"/>
+		</div>
+	</div>
+</div>
+</section>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320"><path fill="#ECF6FB" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,90.7C384,96,480,128,576,133.3C672,139,768,117,864,96C960,75,1056,53,1152,64C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<!-- Portfolio -->
+<section id="portfolio" style="background-color: #ECF6FB;" class="py-12 px-4">
+<div class="max-w-4xl mx-auto">
+	<h2 class="text-3xl font-bold mb-4 text-center">Portfolio</h2>
+	<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+		<div class="shadow-lg p-4 bg-white text-center">
+			<img src="img/port1.png" class="mb-3"/>
+			<h5 class="mb-2">AMARTHA</h5>
+			<p class="mb-0">
+				 Creating a campaign "#NoMaGerWithAmartha": "Becoming Entrepreneurs with Amartha," by producing billboards, flyers, and promoting through YouTube ads, essentially utilizing both offline and online marketing.
+			</p>
+		</div>
+		<div class="shadow-lg p-4 bg-white text-center">
+			<img src="img/port2.png" class="mb-3"/>
+			<h5 class="mb-2">Le' Hotelier</h5>
+			<p class="mb-0">
+				 Le' Hotelier stands as an exclusive hotel reservation platform, offering bookings in luxurious five-star hotels, airport accommodations, well-appointed business meeting spaces, and curated attraction recommendations across Indonesia.
+			</p>
+		</div>
+		<div class="shadow-lg p-4 bg-white text-center">
+			<img src="img/port3.png" class="mb-3"/>
+			<h5 class="mb-2">Lalaundry</h5>
+			<p class="mb-0">
+				 Lalaundry is a sophisticated application designed to facilitate laundry management tasks. It offers robust features for overseeing laundry activities, efficient data storage, and meticulous inventory tracking, ensuring a streamlined and organized approach to data management.
+			</p>
+		</div>
+		<div class="shadow-lg p-4 bg-white text-center">
+			<img src="img/port4.png" class="mb-3"/>
+			<h5 class="mb-2">Recreating Pocari Sweat Website</h5>
+			<p class="mb-0">
+				 Pocari Sweat website is a user-friendly and comprehensive online platform that offers valuable information and engagement opportunities for individuals interested in the Pocari Sweat brand. It provides a wide range of content, including product details and health-related insights, catering to diverse visitor needs and interests.
+			</p>
+		</div>
+		<div class="shadow-lg p-4 bg-white text-center">
+			<img src="img/port5.png" class="mb-3"/>
+			<h5 class="mb-2">Recreating Sociolla Website</h5>
+			<p class="mb-0">
+				 Sociolla is an e-commerce website dedicated to beauty and skincare products. It offers a wide range of cosmetics, skincare, and personal care items from various brands. Customers can browse and purchase products, read reviews, and stay updated on beauty trends. The website aims to provide a convenient and comprehensive shopping experience for beauty enthusiasts.
+			</p>
+		</div>
+		<div class="shadow-lg p-4 bg-white text-center">
+			<img src="img/port6.png" class="mb-3"/>
+			<h5 class="mb-2">Recreating MPL Website</h5>
+			<p class="mb-0">
+				 MPL, short for Mobile Legends: Professional League, is a leading esports competition for the popular mobile game "Mobile Legends." It involves professional teams and players competing at the highest level, organizing tournaments and awarding significant prizes to top performers. MPL is instrumental in promoting and enhancing the competitive aspect of the game.
+			</p>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Suggest -->
+<section id="suggest" style="background-color: #BFCBCE;" class="py-12 px-4">
+<div class="max-w-4xl mx-auto">
+	<h2 class="text-3xl font-bold mb-4 text-center">Suggest</h2>
+	<div class="mb-4">
+		<label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email address</label>
+		<input type="email" name="email" id="email" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"></div>
+	<div class="mb-4">
+		<label for="comment" class="block text-gray-700 text-sm font-bold mb-2">Comment</label>
+		<input type="comment" name="email" id="email" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"></div>
+	<button type="button" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:bg-gray-300 ml-4">Send</button>
+	</body>
+	</html>
